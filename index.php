@@ -1,5 +1,5 @@
 <?php
-echo "Hello World!";
+require_once __DIR__ . '/Model/Movie.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@ echo "Hello World!";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>php-oop-1</title>
 </head>
 
 <body>
