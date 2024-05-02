@@ -17,4 +17,28 @@ class Movie
     $this->rating = $rating;
     $this->id = $id;
   }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function getDirector()
+  {
+    return $this->director;
+  }
+  public function getYear()
+  {
+    return $this->year;
+  }
+  public function getGenre()
+  {
+    return $this->genre;
+  }
+  public function getRating()
+  {
+    return $this->rating;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
 }
