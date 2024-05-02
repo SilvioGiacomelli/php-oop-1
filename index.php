@@ -22,43 +22,43 @@ $schindlersList = new Movie('Schindler\'s List', 'Steven Spielberg', 1993, 'Biog
 
 <body>
   <div class="container">
-    <h1>Lista Film</h1>
-  </div>
-  <div class="container">
+    <h1>Movie List</h1>
     <ul>
       <li>
-        <h2><?php echo $alien->title; ?></h2>
-        <p>Regista: <?php echo $alien->director; ?></p>
-        <p>Anno: <?php echo $alien->year; ?></p>
-        <p>Genere: <?php echo $alien->genre; ?></p>
-        <p>Voto: <?php echo $alien->rating; ?></p>
+        <h2><?php echo $alien->getTitle(); ?></h2>
+        <p>Director: <?php echo $alien->getDirector(); ?></p>
+        <p>Year: <?php echo $alien->getYear(); ?></p>
+        <p>Genre: <?php echo $alien->getGenre(); ?></p>
+        <p>Rating: <?php echo $alien->getRating(); ?></p>
       </li>
       <li>
-        <h2><?php echo $lordOfTheRings->title; ?></h2>
-        <p>Regista: <?php echo $lordOfTheRings->director; ?></p>
-        <p>Anno: <?php echo $lordOfTheRings->year; ?></p>
-        <p>Genere: <?php echo $lordOfTheRings->genre; ?></p>
-        <p>Voto: <?php echo $lordOfTheRings->rating; ?></p>
+        <h2><?php echo $lordOfTheRings->getTitle(); ?></h2>
+        <p>Director: <?php echo $lordOfTheRings->getDirector(); ?></p>
+        <p>Year: <?php echo $lordOfTheRings->getYear(); ?></p>
+        <p>Genre: <?php echo $lordOfTheRings->getGenre(); ?></p>
+        <p>Rating: <?php echo $lordOfTheRings->getRating(); ?></p>
       </li>
       <li>
-        <h2><?php echo $xxx->title; ?></h2>
-        <p>Regista: <?php echo $xxx->director; ?></p>
-        <p>Anno: <?php echo $xxx->year; ?></p>
-        <p>Genere: <?php echo $xxx->genre; ?></p>
-        <p>Voto: <?php echo $xxx->rating; ?></p>
+        <h2><?php echo $xxx->getTitle(); ?></h2>
+        <p>Director: <?php echo $xxx->getDirector(); ?></p>
+        <p>Year: <?php echo $xxx->getYear(); ?></p>
+        <p>Genre: <?php echo $xxx->getGenre(); ?></p>
+        <p>Rating: <?php echo $xxx->getRating(); ?></p>
       </li>
       <li>
-        <h2><?php echo $viaColVento->title; ?></h2>
-        <p>Regista: <?php echo $viaColVento->director; ?></p>
-        <p>Anno: <?php echo $viaColVento->year; ?></p>
-        <p>Genere: <?php echo $viaColVento->genre; ?></p>
-        <p>Voto: <?php echo $viaColVento->rating; ?></p>
+        <h2><?php echo $viaColVento->getTitle(); ?></h2>
+        <p>Director: <?php echo $viaColVento->getDirector(); ?></p>
+        <p>Year: <?php echo $viaColVento->getYear(); ?></p>
+        <p>Genre: <?php echo $viaColVento->getGenre(); ?></p>
+        <p>Rating: <?php echo $viaColVento->getRating(); ?></p>
       </li>
       <li>
-        <h2><?php echo $limitless->title; ?></h2>
-        <p>Regista: <?php echo $limitless->director; ?></p>
-        <p>Anno: <?php echo $limitless->year; ?></p>
-        <p>Genere: <?php echo $limitless->genre; ?></p>
+        <h2><?php echo $limitless->getTitle(); ?></h2>
+        <p>Director: <?php echo $limitless->getDirector(); ?></p>
+        <p>Year: <?php echo $limitless->getYear(); ?></p>
+        <p>Genre: <?php echo $limitless->getGenre(); ?></p>
+
+  </div>
 </body>
 
 </html>
