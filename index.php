@@ -21,7 +21,44 @@ $schindlersList = new Movie('Schindler\'s List', 'Steven Spielberg', 1993, 'Biog
 </head>
 
 <body>
-
+  <div class="container">
+    <h1>Lista Film</h1>
+  </div>
+  <div class="container">
+    <ul>
+      <li>
+        <h2><?php echo $alien->title; ?></h2>
+        <p>Regista: <?php echo $alien->director; ?></p>
+        <p>Anno: <?php echo $alien->year; ?></p>
+        <p>Genere: <?php echo $alien->genre; ?></p>
+        <p>Voto: <?php echo $alien->rating; ?></p>
+      </li>
+      <li>
+        <h2><?php echo $lordOfTheRings->title; ?></h2>
+        <p>Regista: <?php echo $lordOfTheRings->director; ?></p>
+        <p>Anno: <?php echo $lordOfTheRings->year; ?></p>
+        <p>Genere: <?php echo $lordOfTheRings->genre; ?></p>
+        <p>Voto: <?php echo $lordOfTheRings->rating; ?></p>
+      </li>
+      <li>
+        <h2><?php echo $xxx->title; ?></h2>
+        <p>Regista: <?php echo $xxx->director; ?></p>
+        <p>Anno: <?php echo $xxx->year; ?></p>
+        <p>Genere: <?php echo $xxx->genre; ?></p>
+        <p>Voto: <?php echo $xxx->rating; ?></p>
+      </li>
+      <li>
+        <h2><?php echo $viaColVento->title; ?></h2>
+        <p>Regista: <?php echo $viaColVento->director; ?></p>
+        <p>Anno: <?php echo $viaColVento->year; ?></p>
+        <p>Genere: <?php echo $viaColVento->genre; ?></p>
+        <p>Voto: <?php echo $viaColVento->rating; ?></p>
+      </li>
+      <li>
+        <h2><?php echo $limitless->title; ?></h2>
+        <p>Regista: <?php echo $limitless->director; ?></p>
+        <p>Anno: <?php echo $limitless->year; ?></p>
+        <p>Genere: <?php echo $limitless->genre; ?></p>
 </body>
 
 </html>
